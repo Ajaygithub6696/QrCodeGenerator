@@ -15,10 +15,6 @@
 # production
 /build
 
-# ignore assets
-/public
-/public/assets
-/generated-assets
 
 # misc
 .DS_Store
