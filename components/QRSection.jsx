@@ -31,7 +31,7 @@ const QRSection = (props) => {
         <>
              <div className="col-3">
                 <QRCode value={value} bgColor={bgColor} fgColor={fgColor} id="helll2"/>
-                 <button className="btn btn-primary" onClick={() => DownlodeChartImage('svg')} >Generate QR</button>
+                 <button className="m-3 btn btn-primary" onClick={() => DownlodeChartImage('svg')} >Generate QR</button>
             </div>
         </>
     )

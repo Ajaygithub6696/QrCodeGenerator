@@ -373,7 +373,7 @@ const MainComponent = (props) => {
 
     return (
         <>
-              <div className="col-6">
+              <div className="col-5">
               {
                   types && types == 'URL' ? URLComponent() : types == 'TEXT' ? TextComponent() : types == 'EMAIL' ? EmailComponent() : types == 'VCARD' ? ContactComponent() : types == 'SMS' ? SMSComponent() : types == 'YOUTUBE' ?  YoutubeComponent() : types == 'WIFI' ?  WifiComponent() : types == 'LOCATION' ?  LocationComponent() : types == 'EVENT' ? EventComponent() : types == 'INSTAGRAM' ? InstagramComponent() : ''
               }

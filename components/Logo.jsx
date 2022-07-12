@@ -3,7 +3,7 @@ const Logo = () => {
     return (
         <>
              <div>
-                <a className="logo" href="/">
+                <a className="logo" href="#">
                     <span className="img">
                         <img width="16" height="16" src="./logoipsum-logo-52.svg" />
                     </span>

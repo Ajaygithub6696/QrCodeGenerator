@@ -21,7 +21,7 @@ const QRColor = (props) => {
 
     return (
         <>
-            <div className="col-3">
+            <div className="col-4">
                 <h4>Background Color</h4>
                 <ColorPicker width={350} height={200} color={bgColor} onChange={setBgColor} hideRGB hideHSV rcp-light />
                 <h4>ForeGround Color</h4>
